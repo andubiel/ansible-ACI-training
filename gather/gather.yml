@@ -1,0 +1,12 @@
+- name: play1
+  hosts: dev
+  gather_facts: yes
+
+  tasks:
+  - local_action:
+     module: copy
+     dest: "facts.json"
+     content: "{{ansible_facts}}"
+#  - debug:
+#      msg:
+#       - "{{ansible_facts.vethfbe24f4}}"

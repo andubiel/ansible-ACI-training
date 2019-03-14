@@ -1,0 +1,11 @@
+[apic:vars]
+#username=admin
+#password=ciscopsdt
+username=ansible
+password=ansible
+ansible_python_interpreter="/usr/bin/env python"
+
+[apic]
+#sandboxapicdc.cisco.com
+10.82.17.108
+
